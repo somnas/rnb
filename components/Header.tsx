@@ -21,9 +21,9 @@ export default function Header() {
                         </div>
                     </Link>
                     <div className='hidden md:flex items-center justify-between ml-4 gap-2 flex-1 max-w-xl bg-gray-200'>
-                        <p>header links</p>
-                        <p>header links</p>
-                        <p>header links</p>
+                        <a className='headerLink'>header links</a>
+                        <a className='headerLink'>header links</a>
+                        <a className='headerLink'>header links</a>
                     </div>
                     <div className='flex items-center justify-end ml-4 gap-2 max-w-xl bg-gray-200'>
                         <p className='hidden md:block'>right end button</p>
