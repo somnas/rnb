@@ -6,13 +6,13 @@ import Header from '../components/Header';
 
 const Home: NextPage = () => {
     return (
-        <>
-            <Header />
+        <div>
             <Head>
                 <title>RNB</title>
-                <link rel="icon" href="/favicon-rnb.png" />
+                <link rel="icon" href="/icons/favicon-rnb.png" />
             </Head>
-        </>
+            <Header />
+        </div>
     );
 };
 
